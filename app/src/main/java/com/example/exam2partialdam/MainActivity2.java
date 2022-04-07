@@ -45,5 +45,4 @@ public class MainActivity2 extends AppCompatActivity {
         startActivity(bebida);
         overridePendingTransition(R.anim.left_in,R.anim.left_out);
     }
-
 }
