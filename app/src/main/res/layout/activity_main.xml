@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edituser"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:hint="@string/User"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="155dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/animbutton"
+            android:gravity="center"
+            android:text="@string/singin"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</RelativeLayout>

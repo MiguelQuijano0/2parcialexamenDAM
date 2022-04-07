@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Exam2partialDAM</string>
+    <string name="User">Usuario</string>
+    <string name="Password">Contraseña</string>
+    <string name="singin">Iniciar Sesion</string>
+    <string name="welcome">Aqui va el mensaje de bienvenida</string>
+    <string name="menssagepizza">Seleccione su pizza preferida</string>
+    <string name="pizzaqueso">Pizza de queso</string>
+    <string name="pizzaquesoprecio">$70</string>
+    <string name="pizzapeperoni">Pizza Peperoni</string>
+    <string name="pizzapepeprecio">$90</string>
+    <string name="pizzapinia">Pizza Hawaiiana</string>
+    <string name="pizzapiniaprecio">$100</string>
+    <string name="textpizza">Escriba el nombre y precio de su pizza</string>
+    <string name="namepiz">Nombre de la pizza</string>
+    <string name="precio">Precio</string>
+    <string name="next">continuar</string>
+    <string name="back">Regresar</string>
+    <string name="menssagebebida">Seleccione su bebida preferida</string>
+    <string name="coca">Coca-Cola 2 litros</string>
+    <string name="cocaprecio">$30</string>
+    <string name="bebida2">Sprite 2 litros</string>
+    <string name="spriteprecio">$25</string>
+    <string name="fanta">Fanta 2 litros</string>
+    <string name="fantaprecio">$24</string>
+    <string name="textbebida">Escriba el nombre y precio de su bebida</string>
+    <string name="namebebida">Nombre de la bebida</string>
+    <string name="finish">Finalizar</string>
+    <string name="finale">Aqui va el mensaje de finalizacion</string>
+</resources>

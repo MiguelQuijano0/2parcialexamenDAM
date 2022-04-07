@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pizza"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical"
+    tools:context=".pizzas">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/menssagepizza"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="544dp"
+        android:src="@drawable/queso" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="594dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/pizzaqueso"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="544dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/pizzaquesoprecio"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="430dp"
+        android:src="@drawable/peperoni" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="481dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/pizzapeperoni"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="431dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/pizzapepeprecio"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="323dp"
+        android:src="@drawable/hawaiiana" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="374dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/pizzapinia"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="324dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/pizzapiniaprecio"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="296dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/textpizza" />
+
+    <EditText
+        android:id="@+id/editnamepizza"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="261dp"
+        android:layout_toStartOf="@+id/editpreciopizza"
+        android:background="@color/white"
+        android:hint="@string/namepiz" />
+
+    <EditText
+        android:id="@+id/editpreciopizza"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="262dp"
+        android:background="@color/white"
+        android:hint="@string/precio"/>
+
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/animbutton"
+        android:text="@string/next"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="182dp"
+        android:layout_toStartOf="@+id/buttonnext"
+        android:background="@drawable/animbutton"
+        android:onClick="backon"
+        android:text="@string/back"
+        android:textColor="#000000" />
+
+</RelativeLayout>
